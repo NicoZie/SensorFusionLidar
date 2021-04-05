@@ -6,6 +6,10 @@ default_target: all
 
 .PHONY : default_target
 
+add_definitions(-std=c++14)
+
+# compile with C++ 14
+
 # Allow only one "make -f Makefile2" at a time, but pass parallelism.
 .NOTPARALLEL:
 
