@@ -7,12 +7,6 @@
 #IncludeRegexTransform: 
 
 /home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/environment.cpp
-sensors/lidar.h
-/home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
-render/render.h
-/home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/render/render.h
-processPointClouds.h
-/home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
 processPointClouds.cpp
 /home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
 
@@ -30,6 +24,8 @@ pcl/filters/extract_indices.h
 pcl/filters/voxel_grid.h
 -
 pcl/filters/crop_box.h
+-
+pcl/kdtree/kdtree.h
 -
 pcl/segmentation/sac_segmentation.h
 -
@@ -53,6 +49,10 @@ random
 -
 unordered_set
 -
+sensors/lidar.h
+/home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
+render/render.h
+/home/nico/Documents/VisualStudioCode/SFND_Lidar_Obstacle_Detection/src/render/render.h
 cmath
 -
 algorithm
